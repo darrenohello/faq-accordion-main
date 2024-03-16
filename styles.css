@@ -79,6 +79,10 @@ p {
         padding]: 1.5rem;
         border-radius: 0.5rem;
         }
+
+        .accordion-header {
+            padding: 24px 40px 24px 0;
+        }
     }
 
     h1 {
