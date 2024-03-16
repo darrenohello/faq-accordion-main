@@ -96,6 +96,11 @@ p {
         .accordion-content p {
             margin-bottom: 20px;
           }
+
+        .star-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     }
 
     h1 {
