@@ -317,13 +317,14 @@ button.accordion {
     transition: all 600ms ease-in-out;
     color: var(--white);
     border-radius: 1.5rem;
+    background-image: url(assets/images/plus-icon-no-bg.svg);
     transform: rotate(0);
     line-height: 1;
 
   }
   
   .accordion-header.active .icon {
-    content: "-";
+    background-image: url(assets/images/plus-plus-no-bg.svg);
     background-color: var(--purple-dark);
     transform: rotate(360deg);
   }
