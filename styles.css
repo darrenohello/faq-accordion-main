@@ -44,7 +44,7 @@ body {
     gap: 1.5rem;
 }
 
-.star-icon {
+.star-icon-wrapper {
     height: 2.5rem;
     width: 2.5rem;
     display: grid;
@@ -84,7 +84,7 @@ p {
             padding: 24px 40px 24px 0;
         }
 
-        .star-icon {
+        .star-icon-wrapper {
             width: 1.5rem;
             height: 1.5rem;
         }
