@@ -13,6 +13,10 @@
     background-color: var(--white);
 }
 
+.faq-heading {
+    display: flex;
+}
+
 body {
     display: grid;
     place-items: center;
