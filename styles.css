@@ -83,6 +83,15 @@ p {
         .accordion-header {
             padding: 24px 40px 24px 0;
         }
+
+        .star-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .accordion-content p {
+            margin-bottom: 20px;
+          }
     }
 
     h1 {
