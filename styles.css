@@ -64,6 +64,7 @@ h2 {
     place-items: center;
     background-color: var(--saturated-purple);
     border-radius: 1.5rem;
+    color: var(--white);
 }
 
 .accordion-contents {
