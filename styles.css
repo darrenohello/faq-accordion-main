@@ -3,8 +3,8 @@
     --light-pink: hsl(275, 100%, 97%);
     --purple-grey: hsl(292, 16%, 49%);
     --purple-dark: hsl(292, 42%, 14%);
-    --grey-light: hsl(0%, 0%, 98%);
-    --saturated-purple: hsl(281%, 88%, 56%);
+    --grey-light: hsl(0, 0%, 98%);
+    --saturated-purple: hsl(281, 88%, 56%);
 }
 
 .faq-container {
