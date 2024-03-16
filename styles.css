@@ -125,10 +125,8 @@ button.accordion {
   }
   
   .accordion-content {
-    background-color: white;
-    border-left: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke;
-    padding: 0 20px;
+    background-color: transparent;
+    padding: 0 0 0 24px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
