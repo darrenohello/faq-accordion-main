@@ -220,7 +220,7 @@ button.accordion {
 
   }
   
-  .accordion-header:hover {
+  .accordion-header:hover, .accordion-header.active:hover {
     color: var(--saturated-purple);
     
   }
