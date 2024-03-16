@@ -95,11 +95,11 @@
     for (i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
+        var accordion-contents = this.nextElementSibling;
+        if (accordion-contents.style.maxHeight) {
+          accordion-contents.style.maxHeight = null;
         } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
+          accordion-contents.style.maxHeight = accordion-contents.scrollHeight + "px";
         } 
       });
     }
