@@ -60,10 +60,6 @@ h2 {
     border-bottom: 1px solid var(--grey-light);
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
-  }
-
 .accordion-header {
     padding: 28px 0 28px 0;
     display: flex;
