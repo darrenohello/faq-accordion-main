@@ -314,7 +314,7 @@ button.accordion {
     display: grid;
     place-items: center;
     background-color: var(--saturated-purple);
-    transition: all 200ms ease-in-out;
+    transition: all 600ms ease-in-out;
     color: var(--white);
     border-radius: 1.5rem;
     transform: rotate(0);
