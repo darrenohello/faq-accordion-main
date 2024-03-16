@@ -327,7 +327,7 @@ button.accordion {
   }
   
   .accordion-header.active .icon {
-    background-image: url(assets/images/plus-plus-no-bg.svg);
+    background-image: url(assets/images/minus-icon-no-bg.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
