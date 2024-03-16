@@ -105,6 +105,8 @@ button.accordion {
     font-family: 'Work Sans';
     cursor: pointer;
     transition: background-color 0.2s linear;
+    display: flex;
+    justify-content: space-between;
   }
   
   button.accordion:after {
