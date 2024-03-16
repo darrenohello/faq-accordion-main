@@ -318,6 +318,9 @@ button.accordion {
     color: var(--white);
     border-radius: 1.5rem;
     background-image: url(assets/images/plus-icon-no-bg.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     transform: rotate(0);
     line-height: 1;
 
@@ -325,6 +328,9 @@ button.accordion {
   
   .accordion-header.active .icon {
     background-image: url(assets/images/plus-plus-no-bg.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     background-color: var(--purple-dark);
     transform: rotate(360deg);
   }
