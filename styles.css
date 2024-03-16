@@ -34,11 +34,14 @@ h2 {
 
 .accordion {
     border-bottom: 1px solid var(--grey-light);
-    margin-bottom: 1.5rem;
 }
 
 .accordion-header {
     padding: 28px 0 28px 0;
+}
+
+.accordion-contents {
+    margin-bottom: 1.5rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
