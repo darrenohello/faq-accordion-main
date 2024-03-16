@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // First, close all sections
         headers.forEach(h => {
           h.classList.remove('active');
-          h.querySelector('.icon').textContent = '+';
+          h.querySelector('.icon').textContent = '';
           h.nextElementSibling.style.maxHeight = null;
         });
         
         // Then, if the clicked section was not active, open it
         if (!isActive) {
           this.classList.add('active');
-          this.querySelector('.icon').textContent = '-';
+          this.querySelector('.icon').textContent = '';
           const content = this.nextElementSibling;
           content.style.maxHeight = content.scrollHeight + 'px';
         }
