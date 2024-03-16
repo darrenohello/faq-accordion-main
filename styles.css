@@ -209,7 +209,6 @@ button.accordion {
     text-align: left;
     padding: 28px 0;
     width: 100%;
-    text-transform: uppercase;
     cursor: pointer;
     position: relative;
     color: black; /* Default color */
