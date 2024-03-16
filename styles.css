@@ -52,6 +52,15 @@ h2 {
 
 .accordion-header {
     padding: 28px 0 28px 0;
+    display: flex;
+}
+
+.accordion-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--saturated-purple);
 }
 
 .accordion-contents {
