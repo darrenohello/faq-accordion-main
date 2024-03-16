@@ -211,7 +211,7 @@ button.accordion {
     background-color: transparent;
     border: none;
     text-align: left;
-    padding: 28px 0;
+    padding: 28px 40px 28px 0;
     width: 100%;
     cursor: pointer;
     position: relative;
@@ -242,6 +242,9 @@ button.accordion {
   .accordion-header .icon {
     position: absolute;
     right: 20px;
+    height: 1.5rem;
+    width: 1.5rem;
+
   }
   
   .accordion-header.active .icon {
