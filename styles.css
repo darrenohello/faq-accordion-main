@@ -24,6 +24,7 @@ body {
     max-height: 20rem;
     height: 30vh;
     background-color: #301534;
+    width: 100vw;
 }
 
 .faq-container {
