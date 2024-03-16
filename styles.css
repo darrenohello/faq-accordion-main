@@ -248,7 +248,11 @@ button.accordion {
     content: "-";
   }
   
-
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--grey-light);
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
