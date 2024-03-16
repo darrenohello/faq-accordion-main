@@ -252,6 +252,7 @@ button.accordion {
     background-color: var(--saturated-purple);
     transition: all 200ms ease-in-out;
     color: var(--white);
+    border-radius: 1.5rem;
 
   }
   
