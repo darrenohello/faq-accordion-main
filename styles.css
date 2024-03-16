@@ -5,6 +5,7 @@
 body {
     display: grid;
     place-items: center;
+    font-family: "Work Sans", sans-serif;
 }
 
 .attribution { font-size: 11px; text-align: center; }
