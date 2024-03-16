@@ -217,10 +217,12 @@ button.accordion {
     position: relative;
     color: var(--purple-dark);
     transition: all 200ms ease-in-out;
+
   }
   
   .accordion-header:hover, .accordion-header:focus, .accordion-header.active {
     color: var(--saturated-purple);
+    
   }
   
   .accordion-content {
@@ -248,6 +250,8 @@ button.accordion {
     display: grid;
     place-items: center;
     background-color: var(--saturated-purple);
+    transition: all 200ms ease-in-out;
+    color: var(--white);
 
   }
   
