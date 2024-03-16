@@ -219,7 +219,7 @@ button.accordion {
   }
   
   .accordion-header:hover, .accordion-header:focus, .accordion-header.active {
-    color: magenta;
+    color: var(--saturated-purple);
   }
   
   .accordion-content {
