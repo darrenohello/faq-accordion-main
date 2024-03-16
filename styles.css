@@ -17,6 +17,7 @@ body {
     display: grid;
     place-items: center;
     font-family: "Work Sans", sans-serif;
+    background-color: var(--light-pink);
 }
 
 h1 {
