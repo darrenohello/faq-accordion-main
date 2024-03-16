@@ -207,7 +207,7 @@ button.accordion {
     background-color: transparent;
     border: none;
     text-align: left;
-    padding: 0 28px;
+    padding: 28px 0;
     width: 100%;
     text-transform: uppercase;
     cursor: pointer;
