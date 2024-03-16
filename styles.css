@@ -15,6 +15,15 @@
 
 .faq-heading {
     display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.star-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: grid;
+    place-items: center;
 }
 
 body {
