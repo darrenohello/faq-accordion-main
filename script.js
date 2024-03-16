@@ -22,3 +22,33 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('button');
+  
+    buttons.forEach((button, index) => {
+      button.addEventListener('keydown', (event) => {
+        if (event.key === 'Tab') {
+          event.preventDefault(); // Prevent the default tab behavior
+  
+          if (event.shiftKey) {
+            // Shift + Tab on the first button
+            if (index === 0) {
+              buttons[buttons.length - 1].focus(); // Move focus to the last button
+            } else {
+              buttons[index - 1].focus(); // Move focus to the previous button
+            }
+          } else {
+            // Tab on the last button
+            if (index === buttons.length - 1) {
+              buttons[0].focus(); // Move focus to the first button
+            } else {
+              buttons[index + 1].focus(); // Move focus to the next button
+            }
+          }
+        }
+      });
+    });
+  });
+  
