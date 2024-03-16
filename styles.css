@@ -25,9 +25,9 @@ h1 {
     color: var(--purple-dark)
 }
 
-h2 [
+h2 {
     font-size: 18px;
-]
+}
 
 .accordion {
     border-bottom: 1px solid var(--grey-light);
