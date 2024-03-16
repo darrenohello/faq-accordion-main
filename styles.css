@@ -325,7 +325,7 @@ button.accordion {
   .accordion-header.active .icon {
     content: "-";
     background-color: var(--purple-dark);
-    transform: rotate (360);
+    transform: rotate (360deg);
   }
   
 .divider {
