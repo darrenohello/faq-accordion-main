@@ -16,6 +16,10 @@ body {
     height: 100vh;
 }
 
+.bg-img {
+    top: 0;
+}
+
 .faq-container {
     max-width: 600px;
     padding: 2.5rem;
