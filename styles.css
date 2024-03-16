@@ -288,9 +288,15 @@ button.accordion {
 
   .accordion-header:focus, .accordion-header.active {
     color: var(--purple-dark);
-    
+    outline: none;
   }
   
+  .accordion-header:focus-visible {
+    outline: 1px solid var(--saturated-purple);
+    padding: 28px 8px 28px 8px;
+    border-radius: 0.5rem;
+  }
+
   .accordion-content {
     max-height: 0;
     overflow: hidden;
