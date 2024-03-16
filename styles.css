@@ -275,6 +275,9 @@ button.accordion {
     position: relative;
     color: var(--purple-dark);
     transition: all 200ms ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
 
   }
   
@@ -307,8 +310,6 @@ button.accordion {
   }
   
   .accordion-header .icon {
-    position: absolute;
-    right: 0;
     height: 1.5rem;
     width: 1.5rem;
     display: grid;
