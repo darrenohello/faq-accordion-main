@@ -215,7 +215,8 @@ button.accordion {
     width: 100%;
     cursor: pointer;
     position: relative;
-    color: black; /* Default color */
+    color: var(--purple-dark);
+    transition: all 200ms ease-in-out;
   }
   
   .accordion-header:hover, .accordion-header:focus, .accordion-header.active {
@@ -244,11 +245,15 @@ button.accordion {
     right: 0;
     height: 1.5rem;
     width: 1.5rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--saturated-purple);
 
   }
   
   .accordion-header.active .icon {
     content: "-";
+    background-color: var(--purple-dark);
   }
   
 .divider {
