@@ -138,6 +138,12 @@ button.accordion {
 
 */
 
+/*
+
+
+
+
+
 
 .accordion {
     max-width: 300px;
@@ -195,6 +201,45 @@ button.accordion {
     line-height: 1.5;
 }
 
+*/
+
+.accordion-header {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 20px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color: black; /* Default color */
+  }
+  
+  .accordion-header:hover, .accordion-header:focus, .accordion-header.active {
+    color: magenta;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f1f1f1;
+    padding: 0 20px;
+  }
+  
+  .accordion-header.active + .accordion-content {
+    max-height: 150px; /* Adjust as needed */
+  }
+  
+  .accordion-header .icon {
+    position: absolute;
+    right: 20px;
+  }
+  
+  .accordion-header.active .icon {
+    content: "-";
+  }
+  
 
 
 
