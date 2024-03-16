@@ -317,12 +317,15 @@ button.accordion {
     transition: all 200ms ease-in-out;
     color: var(--white);
     border-radius: 1.5rem;
+    transform: rotate(0);
+    line-height: 1;
 
   }
   
   .accordion-header.active .icon {
     content: "-";
     background-color: var(--purple-dark);
+    transform: rotate (360);
   }
   
 .divider {
