@@ -324,6 +324,7 @@ button.accordion {
     background-position: center; 
     transform: rotate(-90deg);
     line-height: 1;
+    flex-shrink: 0;
 
   }
   
