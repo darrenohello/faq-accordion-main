@@ -23,6 +23,7 @@ body {
     z-index: -1;
     max-height: 20rem;
     height: 30vh;
+    background-color: #301534;
 }
 
 .faq-container {
