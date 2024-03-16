@@ -58,7 +58,7 @@ body {
 
 
 h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3.5rem;
     color: var(--purple-dark);
     margin: 0;
@@ -68,6 +68,7 @@ h2 {
     font-size: 18px;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
 }
 
 p {
