@@ -75,6 +75,7 @@ h2 {
 
 .accordion-contents {
     margin-bottom: 1.5rem;
+    color: var(--purple-grey);
 }
 
 .attribution { font-size: 11px; text-align: center; }
