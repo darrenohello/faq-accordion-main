@@ -241,7 +241,7 @@ button.accordion {
   
   .accordion-header .icon {
     position: absolute;
-    right: 20px;
+    right: 0;
     height: 1.5rem;
     width: 1.5rem;
 
