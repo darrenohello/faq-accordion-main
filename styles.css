@@ -229,6 +229,11 @@ button.accordion {
     background-color: transparent;
     padding: 0;
   }
+
+  .accordion-content p {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
   
   .accordion-header.active + .accordion-content {
     max-height: 150px; /* Adjust as needed */
