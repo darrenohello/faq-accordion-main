@@ -25,5 +25,9 @@ h1 {
     color: var(--purple-dark)
 }
 
+.accordion {
+    border-bottom: 1px solid var(--grey-light);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
