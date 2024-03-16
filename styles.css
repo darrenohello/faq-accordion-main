@@ -3,8 +3,17 @@
     --light-pink: hsl(275, 100%, 97%);
     --purple-grey: hsl(292, 16%, 49%);
     --purple-dark: hsl(292, 42%, 14%);
-    --grey-light: hsl(0, 0%, 98%);
+    --grey-light: hsl(0, 0%, 96%);
     --saturated-purple: hsl(281, 88%, 56%);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: "Work Sans", sans-serif;
+    background-color: var(--light-pink);
+    margin: 0;
+    padding: 1rem;
 }
 
 .faq-container {
@@ -17,7 +26,6 @@
                 0px 14px 12px rgba(109, 34, 129, 0.04),
                 0px 26px 20px rgba(109, 34, 129, 0.05),
                 0px 40px 32px rgba(109, 34, 129, 0.06);
-
 }
 
 .faq-heading {
@@ -33,12 +41,7 @@
     place-items: center;
 }
 
-body {
-    display: grid;
-    place-items: center;
-    font-family: "Work Sans", sans-serif;
-    background-color: var(--light-pink);
-}
+
 
 h1 {
     font-weight: bold;
