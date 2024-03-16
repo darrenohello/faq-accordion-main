@@ -14,10 +14,14 @@ body {
     background-color: var(--light-pink);
     margin: 0;
     height: 100vh;
+    overflow: hidden;
 }
 
 .bg-img {
     top: 0;
+    position: absolute;
+    z-index: -1;
+    max-height: 20rem;
 }
 
 .faq-container {
