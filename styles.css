@@ -20,6 +20,7 @@ body {
     max-width: 600px;
     padding: 2.5rem;
     border-radius: 1rem;
+    margin: 1.5rem;
     background-color: var(--white);
     box-shadow: 0px 2px 1px rgba(109, 34, 129, 0.01),
                 0px 6px 5px rgba(109, 34, 129, 0.02),
