@@ -25,6 +25,7 @@ body {
     height: 30vh;
     background-color: #301534;
     width: 100vw;
+    object-fit: cover;
 }
 
 .faq-container {
