@@ -22,7 +22,6 @@ body {
     position: absolute;
     z-index: -1;
     max-height: 20rem;
-    height: 30vh;
     background-color: #301534;
     width: 100vw;
     object-fit: cover;
@@ -111,6 +110,10 @@ p {
             width: 1.5rem;
             height: 1.5rem;
         }
+    }
+
+    dotlottie-player {
+        width: 250vw;
     }
 
     h1 {
