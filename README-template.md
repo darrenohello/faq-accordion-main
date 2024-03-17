@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./faq-accordion-solution-screenshot.jpeg)
+![Solution Screenshot](faq-accordion-solution-screenshot.jpeg)
 
 ### Links
 
