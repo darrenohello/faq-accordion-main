@@ -26,6 +26,7 @@ body {
     background-color: #301534;
     width: 100vw;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .faq-container {
