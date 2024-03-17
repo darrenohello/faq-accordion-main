@@ -44,18 +44,15 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Flexbox and CSS Grid
+- JavaScript
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- How to use JavaScript to toggle the display of elements in order to create an accordion component. 
+- How to trap keyboard focus within the DOM.
+- How to apply focus states visible with keyboard navigation only.
+- How to add microinteraction animations to the accordion icons using CSS transform.
 
 To see how you can add code snippets, see below:
 
